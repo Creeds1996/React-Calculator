@@ -1,0 +1,13 @@
+.Button {
+  display: inline-block;
+  width: 100%;
+  height: 95%;
+  font-size: xx-large;
+  border-radius: 0;
+}
+
+.Button.Operator {
+  height: 30px;
+  line-height: 5px;
+  font-size: large;
+}

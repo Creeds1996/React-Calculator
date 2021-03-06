@@ -1,0 +1,17 @@
+.Calculator {
+  height: 100%;
+  width: 80%;
+  max-width: 500px;
+  padding: 10px;
+  margin: 20px auto 0px auto;
+  border: 1.25px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+  background: gray;
+}
+
+.Calculator .Buttons-Container {
+  display: flex;
+  justify-content: space-between;
+  height: 250px;
+}

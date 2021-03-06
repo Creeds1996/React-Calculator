@@ -1,0 +1,21 @@
+.Buttons {
+  height: 100%;
+  width: 70%;
+  margin: 0px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.Buttons .Button-Container {
+  width: 30%;
+  height: 60px;
+  display: inline-block;
+}
+
+.Buttons .Button-Container.Zero {
+  width: 65%;
+}
