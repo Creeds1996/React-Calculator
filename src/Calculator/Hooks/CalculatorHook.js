@@ -26,6 +26,7 @@ const CalculatorReducer = (state, action) => {
         index: 1,
         operator: action.value,
         currentDisplay: state.secondNumber,
+        result: " ",
       };
     case "Equals":
       switch (state.operator) {

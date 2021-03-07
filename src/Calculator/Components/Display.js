@@ -8,7 +8,11 @@ function Display(props) {
         {" " + props.Operator + " "}
         {props.Index !== 0 && props.secondNumber}
       </p>
-      <p>{props.Value}</p>
+      <p>
+        {props.Value.toString().length !== 1
+          ? props.Value.toString().substring(1)
+          : 0}
+      </p>
     </div>
   );
 }

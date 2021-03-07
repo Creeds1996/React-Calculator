@@ -12,6 +12,9 @@ function Buttons(props) {
               className={`Button-Container${9 - index === -1 ? " Zero" : ""}`}
             >
               <Button
+                code={
+                  9 - index > 0 ? 9 - index : 9 - index === -1 ? 0 : "Decimal"
+                }
                 Value={9 - index > 0 ? 9 - index : 9 - index === -1 ? "0" : "."}
                 {...props}
               />

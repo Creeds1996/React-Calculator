@@ -19,7 +19,7 @@ function Calculator(props) {
         firstNumber={parseFloat(calculatorData.firstNumber)}
         Operator={calculatorData.operator}
         secondNumber={parseFloat(calculatorData.secondNumber)}
-        Value={parseFloat(calculatorData.currentDisplay)}
+        Value={calculatorData.currentDisplay}
         Index={calculatorData.index}
       />
       <div className="Buttons-Container">
