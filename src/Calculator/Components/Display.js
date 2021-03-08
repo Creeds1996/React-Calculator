@@ -9,9 +9,8 @@ function Display(props) {
         {props.Index !== 0 && props.secondNumber}
       </p>
       <p>
-        {props.Value.toString().length !== 1
-          ? props.Value.toString().substring(1)
-          : 0}
+        {props.Value.toString().length > 1 && props.Value.toString().startsWith("0")
+          ? props.Value.toString().substring(1) : props.Value}
       </p>
     </div>
   );
